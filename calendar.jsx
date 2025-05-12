@@ -1,0 +1,1 @@
+export const Calendar = ({ selected, onSelect, className }) => <input type="date" className={className} onChange={e => onSelect(new Date(e.target.value))} />;
